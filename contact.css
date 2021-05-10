@@ -1,0 +1,59 @@
+nav ul{
+    display: flex;
+    position: sticky;
+    background-color: red;
+    color: yellow;
+    width: 100%;
+
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: yellow;
+}
+nav ul li{
+    list-style: none;
+    margin: 20px;
+    margin-left: 70px;
+
+}
+nav ul li:hover{
+    cursor: pointer;
+}
+nav{
+    display: flex;
+  
+}
+#name{
+    color: black;
+    height: 40px;
+    width: 200px;
+}
+#email{
+    color: black;
+    height: 40px;
+    width: 200px;
+}
+#password{
+    color: black;
+    height: 40px;
+    width: 200px;
+}
+#phone{
+    color: black;
+    height: 40px;
+    width: 200px;
+}
+.form{
+    align-items: center;
+}
+body{
+    background-color: royalblue;
+}
+#c{
+    text-decoration: underline;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
