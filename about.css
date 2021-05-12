@@ -7,8 +7,7 @@ text-decoration: underline;
 }
 nav ul{
     display: flex;
-    position: sticky;
-    top:0;
+  
     background-color: red;
     color: yellow;
     width: 100%;
@@ -30,5 +29,6 @@ nav ul li:hover{
 }
 nav{
     display: flex;
-  
+    position: sticky;
+    top:0;
 }
